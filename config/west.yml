@@ -24,5 +24,10 @@ manifest:
       remote: halfdane
       revision: main
       path: modules/zmk-input-gestures
+    # https://github.com/kot149/zmk-mouse-gesture
+    - name: zmk-mouse-gesture
+      remote: kot149
+      revision: v1
+      path: modules/zmk-mouse-gesture
   self:
     path: config
