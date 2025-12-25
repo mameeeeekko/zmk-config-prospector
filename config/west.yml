@@ -19,5 +19,10 @@ manifest:
       remote: prospector
       revision: v2.0.0
       path: modules/prospector-zmk-module
+    # https://github.com/halfdane/zmk-input-gestures
+    - name: zmk-input-gestures
+      remote: halfdane
+      revision: main
+      path: modules/zmk-input-gestures
   self:
     path: config
