@@ -4,20 +4,14 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: prospector
       url-base: https://github.com/t-ogura
-    - name: halfdane
-      url-base: https://github.com/halfdane
-    - name: ssbb
-      url-base: https://github.com/ssbb
-    - name: kot149
-      url-base: https://github.com/kot149
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: v0.3
+      revision: main
       import: app/west.yml
     - name: prospector-zmk-module
       remote: prospector
-      revision: v2.0.0
+      revision: v2.1a
       path: modules/prospector-zmk-module
   self:
     path: config
